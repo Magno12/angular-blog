@@ -1,19 +1,18 @@
 <div class="container__small-card">
-   
+
     <div class="container__small-card-content">
-   
+
         <div class="small-card__photo">
-            <img src="https://w7.pngwing.com/pngs/490/971/png-transparent-naruto-uzumaki-naruto-shipp%C5%ABden-kakashi-hatake-itachi-uchiha-naruto-hand-fictional-character-cartoon-thumbnail.png"
-                alt="" srcset="">
+            <img src="{{photoCover}}" alt="" srcset="">
         </div>
 
         <div class="small-card__title">
-            <h1><a href="#">Titulo Small card</a> </h1>
-            <p>dfjdkffdfkdjfkdjflskjdflkasjdflkjjdk</p> 
-        
+            <h1><a [routerLink]="['content',Id]">{{cardTitle}}</a> </h1>
+            <p>{{cardDescription}}</p>
+
         </div>
 
-        
+
 
     </div>
     <div class="conteiner__small-card-separator">

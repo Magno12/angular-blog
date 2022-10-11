@@ -1,0 +1,6 @@
+.header {
+    margin-top: 10px;
+    border: 1px solid red (108, 0, 0);
+    display: flex;
+    justify-content: center;
+}
