@@ -1,6 +1,5 @@
 .container__content {
     
-    border: 1px solid white;
     width: 100%;
     height: 100%;
 
@@ -16,7 +15,7 @@
 
 .content__cover img {
     margin-top: 15px;
-    border: 5px solid rgb(144, 144, 144);
+    border: 1px solid rgb(144, 144, 144);
     width: 500px;
     min-width: 500px;
     height: 300px;
@@ -27,5 +26,6 @@
 }
 
 .content__description p {
+    margin-top: 10px;
     color: rgb(150, 149, 149);
 }
